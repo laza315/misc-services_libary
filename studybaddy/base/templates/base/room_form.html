@@ -1,0 +1,15 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+<div>
+    <form method="POST" action="">
+        {% csrf_token %}
+        {{form.as_p}} 
+        <!-- .as_p sluzi da stavis paragraf forme vertikalno umesto horizontalno -->
+
+        <input type="submit" value="Submit" />
+    </form>
+</div>
+
+{% endblock content %}

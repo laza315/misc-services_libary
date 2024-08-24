@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75B60476-08D9-4218-A73B-BED61095A538}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Turisticki_vodic_Evrope</RootNamespace>
+    <AssemblyName>Turisticki vodic Evrope</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="pocetna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pocetna.Designer.cs">
+      <DependentUpon>pocetna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kuhinja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kuhinja.Designer.cs">
+      <DependentUpon>kuhinja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kultura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kultura.Designer.cs">
+      <DependentUpon>kultura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18.Designer.cs">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ponuda2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ponuda2.Designer.cs">
+      <DependentUpon>ponuda2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Odgovori.cs" />
+    <Compile Include="Provod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Provod.Designer.cs">
+      <DependentUpon>Provod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form20.Designer.cs">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ponuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ponuda.Designer.cs">
+      <DependentUpon>ponuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="planinskiVenci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="planinskiVenci.Designer.cs">
+      <DependentUpon>planinskiVenci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="skijanje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="skijanje.Designer.cs">
+      <DependentUpon>skijanje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="provod2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="provod2.Designer.cs">
+      <DependentUpon>provod2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vrsteTurizma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vrsteTurizma.Designer.cs">
+      <DependentUpon>vrsteTurizma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="letovalista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="letovalista.Designer.cs">
+      <DependentUpon>letovalista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stanovnistvo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stanovnistvo.Designer.cs">
+      <DependentUpon>stanovnistvo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="provod1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="provod1.Designer.cs">
+      <DependentUpon>provod1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stanovnistvo2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stanovnistvo2.Designer.cs">
+      <DependentUpon>stanovnistvo2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kultura2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kultura2.Designer.cs">
+      <DependentUpon>kultura2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kuhinja2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kuhinja2.Designer.cs">
+      <DependentUpon>kuhinja2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rezultat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rezultat.Designer.cs">
+      <DependentUpon>Rezultat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Saznaj vise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saznaj vise.Designer.cs">
+      <DependentUpon>Saznaj vise.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="pocetna.resx">
+      <DependentUpon>pocetna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kuhinja.resx">
+      <DependentUpon>kuhinja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kultura.resx">
+      <DependentUpon>kultura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18.resx">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ponuda2.resx">
+      <DependentUpon>ponuda2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Provod.resx">
+      <DependentUpon>Provod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form20.resx">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ponuda.resx">
+      <DependentUpon>ponuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="planinskiVenci.resx">
+      <DependentUpon>planinskiVenci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="skijanje.resx">
+      <DependentUpon>skijanje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="provod2.resx">
+      <DependentUpon>provod2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vrsteTurizma.resx">
+      <DependentUpon>vrsteTurizma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="letovalista.resx">
+      <DependentUpon>letovalista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stanovnistvo.resx">
+      <DependentUpon>stanovnistvo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="provod1.resx">
+      <DependentUpon>provod1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stanovnistvo2.resx">
+      <DependentUpon>stanovnistvo2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kultura2.resx">
+      <DependentUpon>kultura2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kuhinja2.resx">
+      <DependentUpon>kuhinja2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Rezultat.resx">
+      <DependentUpon>Rezultat.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\europe-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgorund1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\template2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\template1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\template3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dvojka.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

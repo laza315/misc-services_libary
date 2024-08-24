@@ -1,0 +1,33 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="selenium" />
+            <item index="1" class="java.lang.String" itemvalue="requests-file" />
+            <item index="2" class="java.lang.String" itemvalue="virtualenv" />
+            <item index="3" class="java.lang.String" itemvalue="conda" />
+            <item index="4" class="java.lang.String" itemvalue="selenium-requests" />
+            <item index="5" class="java.lang.String" itemvalue="kite" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="db.db.Column" />
+          <option value="db.db.String" />
+          <option value="db.db.Model" />
+          <option value="db.db.integer" />
+          <option value="db.db.Float" />
+          <option value="db.db.session" />
+          <option value="int.price" />
+          <option value="django.django_venv.sampsite.sampsite.urls.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

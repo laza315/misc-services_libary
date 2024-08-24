@@ -1,0 +1,29 @@
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\bin\Debug\Turisticki vodic Evrope.exe.config
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\bin\Debug\Turisticki vodic Evrope.exe
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\bin\Debug\Turisticki vodic Evrope.pdb
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turistički vodič.csprojAssemblyReference.cache
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Form1.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Forma10.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Forma11.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Forma12.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Forma13.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Forma14.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Forma2.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Forma5.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Forma6.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Forma7.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Forma8.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Forma9.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Properties.Resources.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turistički vodič.csproj.GenerateResource.cache
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turistički vodič.csproj.CoreCompileInputs.cache
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki vodic Evrope.exe
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki vodic Evrope.pdb
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Forma3033.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Form15.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Form16.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Form17.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Form18.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Form19.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Form20.resources
+C:\Users\Lazar\source\repos\Turisticki vodic Evrope\obj\Debug\Turisticki_vodic_Evrope.Form21.resources

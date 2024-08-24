@@ -1,0 +1,4 @@
+billing_group_name,all_tasks,completed,failed,aborted
+Cliant A,250,157,64,29
+Cliant B 132,86,27,19
+Cliant C,42,38,4,0
