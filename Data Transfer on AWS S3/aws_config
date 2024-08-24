@@ -1,0 +1,11 @@
+# AWS S3 Configuration
+
+aws_access_key_id = AWS_ACCESS_KEY_ID
+
+aws_secret_access_key = AWS_SECRET_ACCESS_KEY
+
+aws_region = AWS_REGION
+
+s3_bucket_name = BUCKET_NAME
+
+# s3_endpoint_url = S3_ENDPOINT_URL
