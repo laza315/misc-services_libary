@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\Pocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\FolderiDatoteke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FolderiDatoteke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\RukovanjeFolderima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RukovanjeFolderima.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\pocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pocetna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\folderidatoteke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:folderidatoteke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FolderiDatoteke.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\FolderiDatoteke.cs",
+              "RelativeDocumentMoniker": "FolderiDatoteke.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\FolderiDatoteke.cs",
+              "RelativeToolTip": "FolderiDatoteke.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAswKIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:37:59.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RukovanjeFolderima.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\RukovanjeFolderima.cs",
+              "RelativeDocumentMoniker": "RukovanjeFolderima.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\RukovanjeFolderima.cs",
+              "RelativeToolTip": "RukovanjeFolderima.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wCcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:37:59.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pocetna.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\Pocetna.cs",
+              "RelativeDocumentMoniker": "Pocetna.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\Pocetna.cs",
+              "RelativeToolTip": "Pocetna.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:37:59.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pocetna.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\Pocetna.cs",
+              "RelativeDocumentMoniker": "Pocetna.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\Pocetna.cs [Design]",
+              "RelativeToolTip": "Pocetna.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:37:59.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FolderiDatoteke.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\FolderiDatoteke.cs",
+              "RelativeDocumentMoniker": "FolderiDatoteke.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\master\\Vizuelno programiranje .NET C#\\Predavanje_2\\FolderiDatoteke.cs [Design]",
+              "RelativeToolTip": "FolderiDatoteke.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T12:37:59.495Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
