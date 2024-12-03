@@ -56,5 +56,26 @@ namespace Predavanje_2
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Adresar frm = new Adresar();
+            this.Hide();
+            frm.ShowDialog();
+            this.Show();
+        }
+
+        private void button_3MouseMove(object sender, MouseEventArgs e)
+        {
+            Status.Text = "     Pokrece formu za rad sa rad sa kontaktima!";
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Crtanje frm = new Crtanje();
+            this.Hide();
+            frm.ShowDialog();
+            this.Show();
+        }
     }
 }
