@@ -1,7 +1,7 @@
 import random
 import requests
 from bs4 import BeautifulSoup
-
+from movie_cast import get_movie_cast
 
 url = 'https://www.imdb.com/chart/top/'
 
@@ -37,4 +37,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    get_movie_cast()
