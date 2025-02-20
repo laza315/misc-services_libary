@@ -11,7 +11,7 @@ from fastapi_cache.decorator import cache
 from fastapi_cache.backends.inmemory import InMemoryBackend
 from fastapi_cache import FastAPICache
 from logging import getLogger
-
+from SPARQLWrapper import TURTLE, JSON
 
 logger = getLogger(__name__)
 
@@ -50,7 +50,7 @@ async def get_slave_and_parent_categories_for_resource(resource: str, page: int 
     q_instance = Queries(url="http://dbpedia.org/", resource=resource)
     query = q_instance.parent_category_Q()
     # Trenutno, posto cemo ici po BFS alogirtmu, u prvom searchu po okidanju API-ja u graf dodajemo prvi layer oko resursa prvom garniturom kategorija, sto nam daje dubinu 1
-    result = await Queries.execute_sparql_query(_endpoint_url, query) 
+    result = await q_instance.execute_sparql_query(_endpoint_url, query, TURTLE) 
 
     g = Graph()
     graph = g.parse(data=result, format='turtle') # smestamo ga u graf
@@ -101,12 +101,18 @@ async def get_slave_and_parent_categories_for_resource(resource: str, page: int 
         if new_categories:
             expanded_categories = await expand_the_graph(graph, new_categories)
             layers.extend(expanded_categories)
+            logger.info(msg=f"Expanded categories at depth {depth + 1}: {expanded_categories}")
+
+            print(f"Expanded categories at depth {depth + 1}: {expanded_categories}")
+
 
         for cat in new_categories:  
             lista_cekanja.put(cat)
 
         if new_categories:  
             depth += 1
+            print("Nova tura, nova garnitura")
+
 
         layers.extend(new_categories) # za objedinjavanje rezultata za vise kategorija
 
@@ -115,7 +121,7 @@ async def get_slave_and_parent_categories_for_resource(resource: str, page: int 
 async def background_subcategory_digger(category_val):
     q_instance = Queries(url="http://dbpedia.org/", resource=category_val)
     query = q_instance.parent_category_Q()
-    result = await Queries.execute_sparql_query(_endpoint_url, query)
+    result = await q_instance.execute_sparql_query(_endpoint_url, query, TURTLE)
     return result
 
 
@@ -135,7 +141,7 @@ async def expand_the_graph(graph: Graph, categories: List[str]) -> List[str]:
     stack = queue.Queue(maxsize=5000)
 
     for category in categories:
-        stack.put(category)
+         stack.put(category)
 
     order = []
 
@@ -148,7 +154,7 @@ async def expand_the_graph(graph: Graph, categories: List[str]) -> List[str]:
             
             for n in graph.objects(subject=URIRef(node)): #proveravamo sve URIRef susede glavnog noda u RDF grafu
                 if n not in visited:
-                    stack.put(str(n))
+                     stack.put(str(n))
     
     return order # vracamo layer podataka oko grafa
 
