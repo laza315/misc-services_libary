@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi import Request, status
 from router import anarchy_of_hierarchy, cohesion_among_categories
-from exceptions import BadInputParsed, NoResultsException, MissingInput, TimeOutException
+from exceptions import BadInputParsed, NoResultsException, MissingInput
 from fastapi.responses import  JSONResponse, HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Callable
@@ -20,12 +20,12 @@ async def missing_input_exception_handler(request: Request, exc: MissingInput):
         status_code=HTTP_405_METHOD_NOT_ALLOWED,
         content={"detail": exc.detail},
     )
-@app.exception_handler(TimeOutException)
-async def timeout_exception_handler(request: Request, exc: TimeOutException):
-    return JSONResponse(
-        status_code=HTTP_413_REQUEST_ENTITY_TOO_LARGE,
-        content={"detail": exc.detail},
-    )
+# @app.exception_handler(TimeOutException)
+# async def timeout_exception_handler(request: Request, exc: TimeOutException):
+#     return JSONResponse(
+#         status_code=HTTP_413_REQUEST_ENTITY_TOO_LARGE,
+#         content={"detail": exc.detail},
+#     )
 
 @app.exception_handler(BadInputParsed)
 async def bad_input_exception_handler(request: Request, exc: BadInputParsed):
@@ -41,55 +41,5 @@ async def no_results_found_exception_handler(request: Request, exc: NoResultsExc
         content={"detail": exc.detail},
     )
 
-# def create_exception_handler(
-#         status_code: int, initial_detail: str
-#     ) -> Callable[[Request, StoryException], JSONResponse]:
-#     detail = {"message": initial_detail}
 
-#     async def exception_handler(_: Request, exc: StoryException) -> JSONResponse:
-#         if exc.message:
-#             detail["message"] = exc.message
-        
-#         if exc.name:
-#             detail["message"] = f"{detail['message']} [{exc.name}]"
-
-#         logger.error(exc)
-#         return JSONResponse (
-#             status_code=status_code, content={"detail": detail["messages"]}
-#         )
-#     return exception_handler
-
-
-# app.add_exception_handler(
-#     exc_class_or_status_code=TypeError,
-#     handler=create_exception_handler(
-#         status.HTTP_400_BAD_REQUEST, "Data can't be processed, check the input."
-#     )
-# )
-
-# @app.middleware('http')
-# async def add_middleware(request: Request, call_next):
-#     start_time = time.time()
-#     response = await call_next(request)
-#     duration = time.time() - start_time
-    
-#     response.headers['duration'] = str(duration) #dodajem headers samom responsu
-#     return response
-
-
-# hosts = ['http://localhost:3000']
-
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins = hosts,
-#     allow_credentials = True,
-#     allow_methods = ["*"],
-#     allow_headers = ["*"]
-# )
-
-# url = "https://dbpedia.org/sparql"
-
-# @app.get("/")
-# async def root():
-#     page = requests.get(url)
-#     return {"page", page.status_code}
+# if __name__=='__main__':

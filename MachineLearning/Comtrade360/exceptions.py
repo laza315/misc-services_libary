@@ -18,8 +18,8 @@ class NoResultsException(HTTPException):
     def __init__(self, detail: str = "No results. Your searching criteria doesn't exist on DBpedia!"):
         super().__init__(status_code=400, detail=detail)
 
-class TimeOutException(HTTPException):
-    """Time out exception occured. Site couldn't fetch the results in set time range"""
+# class TimeOutException(HTTPException):
+#     """Time out exception occured. Site couldn't fetch the results in set time range"""
     
-    def __init__(self, detail: str = "No results. Time limit exceeded"):
-        super().__init__(status_code=413, detail=detail)      
+#     def __init__(self, detail: str = "No results. Time limit exceeded"):
+#         super().__init__(status_code=413, detail=detail)      
