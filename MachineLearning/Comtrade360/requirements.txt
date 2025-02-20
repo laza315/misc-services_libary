@@ -3,3 +3,8 @@ uviron
 requests
 rdflib
 SPARQLWrapper
+fastapi-cache2
+tensorflow<2.11
+keras
+numpy
+tqdm
